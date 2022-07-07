@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "short-video-app-bypritam",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
